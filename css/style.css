@@ -20,8 +20,8 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #1e1e1e;
-  background-image: url(../images/Sq7CB84.gif);
+  background: #202b37;
+  /*background-image: url(../images/Sq7CB84.gif);*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100%;
