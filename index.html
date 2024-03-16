@@ -5,14 +5,25 @@
   <link rel="stylesheet" href="css/style.css">
   <title>ordinarydev's Portoflio</title>
   <link rel="icon" type="image/x-icon" href="images/ArrowCursor.png">
+  
   <style>
+    /* Define a custom cursor for hyperlinks */
     a {
-        cursor: url('./images/ArrowCursorP.png'), auto !important;
-    }
-    a:hover {
-        cursor: pointer !important;
+        cursor: url('./images/ArrowCursorP.png'), pointer; /* Set the default cursor image */
     }
 </style>
+<script>
+    // Function to change cursor to pointer when hovering over a hyperlink
+    function changeCursor() {
+        document.getElementsByTagName('a')[0].style.cursor = 'url(./images/ArrowCursorP.png), pointer';
+    }
+
+    // Function to revert cursor to default when mouse leaves the hyperlink
+    function revertCursor() {
+        document.getElementsByTagName('a')[0].style.cursor = 'pointer';
+    }
+</script>
+
 </head>
   
 <body>
