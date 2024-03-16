@@ -5,7 +5,7 @@
 
 .bounce {
   position: relative;
-  bottom: 0;
+  bottom: -5cm;
   animation: bounceAndRotate .8s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Adjust animation duration as needed */
 }
 
