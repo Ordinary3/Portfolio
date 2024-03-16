@@ -15,7 +15,8 @@ body, html {
 }
 
 body, html {
-  height: 150%;
+  height: 100%;
+  min-height: 150vh;
   display: flex;
   align-items: center;
   justify-content: center;
