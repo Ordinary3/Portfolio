@@ -2,8 +2,11 @@
 @import url("style_1.css");
 
 body, html {
-  cursor: url(../images/8geolVS.png), auto;
+  cursor: url(../images/8geolVS.png), pointer;
   height: 100%;
+}
+a:hover {
+  cursor: url(./images/Sq7CB84.gif), pointer;
 }
 
 /* General */
@@ -16,7 +19,7 @@ body, html {
 
 body, html {
   height: 100%;
-  min-height: 80vh;
+  min-height: 180vh;
   display: flex;
   align-items: center;
   justify-content: center;
