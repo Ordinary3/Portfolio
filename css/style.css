@@ -169,7 +169,6 @@ body, html {
   font-weight: 600;
   text-transform: uppercase;
   transition-duration: 0.15s;
-  cursor: url(./images/ArrowCursorP.png), pointer;
 }
 
 .card-body .profile-header .profil-logo:hover::before {
