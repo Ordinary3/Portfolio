@@ -1,11 +1,11 @@
 .container {
-  /*position: relative;*/
+  position: relative;
   height: 400px; /* Adjust as needed */
 }
 
 .bounce {
   position: relative;
-  bottom: -5cm;
+  bottom: -100px;
   animation: bounceAndRotate .8s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275); /* Adjust animation duration as needed */
 }
 
